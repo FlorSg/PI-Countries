@@ -1,0 +1,41 @@
+.cover{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botonNeon{
+    cursor: pointer;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #5c5553;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+    overflow: hidden;
+    border-radius: 20px ;
+    
+}
+
+.botonNeon:hover{
+    color: #111;
+            background: #5c5553;
+            box-shadow: 0 0 50px #5c5553;
+}
+
+.henry{
+    top: -80px;
+
+}
+
+.aHome{
+    color:#d4695b;
+}

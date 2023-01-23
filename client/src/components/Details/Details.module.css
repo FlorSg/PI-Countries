@@ -1,0 +1,215 @@
+.loadingTextDetails{
+    position: absolute;
+    top:70vh;
+    left: 33vw;
+    font-style:cursive;
+    font-size: 70px;
+    color: #391B09;
+    text-shadow: 0 0 10px #FFF7CC;
+}
+.generalDetails{
+    height: 100vh;
+    width: 100vw;
+}
+
+#blueNav{
+    height: 4vh;
+    width: 100vw;
+}
+
+.detailCardContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-around;
+    background-color: #201f1f;
+    margin-top: 10px;
+    
+}
+.detailUpperSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5vw;
+    
+    
+}
+.detailUpperSection h1{
+    margin-left: 2vw;
+    font-size: 10vh;  
+    color:#FFF7CC;
+    text-decoration: none;
+    margin-left: 25%;
+    margin-top: 10%;
+    outline: none;
+}
+.imagedetailContainer{
+    
+    width: 12vw;
+    height: 20vh;
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: -2%;
+
+}
+.imagedetailContainer img  {
+    width: 12vw;
+    height: 20vh; 
+    top: 1px;
+    
+}
+.detailMediumSection{
+    display:flex;
+    flex-direction: row;
+   justify-content: space-around;
+   margin-top: -5vh;
+}
+.generalDetailCardData{
+    display: flex;
+    flex-direction: column;
+   background-color: #FFF7CC;
+    border-radius: 15px;
+    opacity: .8;
+    padding: auto;
+}
+.generalDetailCardData h1 {
+    border-bottom: 3px solid rgb(29, 26, 26);
+    font-size: 25px;
+    width: 30vw;
+    margin-left: 1vw;
+    opacity: .8;
+    padding-top: 15px;
+    margin: 0;
+}
+.detailCardData{
+    height: 45vh;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -3vh;
+    margin-bottom: 2vh;
+}
+.detailDataHeaders{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    font-style: cursive;
+    font-size:medium;
+    margin-top: auto;
+    text-decoration: none;
+    outline: none;
+}
+.detailDataHeaders h4 {
+    height: 0.5vh;
+    padding-top: 10px;
+
+   
+}
+.detailDataInfo{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1vw;
+    font-size:medium;
+    margin-top: 1px;
+}
+.detailDataInfo h4{
+    height: 0.4vh;
+    text-align: end;
+}
+.activitiesDetailCard{
+    height: 60vh;
+    width: 40vw;
+    background-color: #FFF7CC;
+    border-radius: 15px;
+    opacity: .8;
+}
+.activitiesDetailCard h1{
+    border-bottom: 3px solid #393831 ;
+    width: 39vw;
+    margin-left: 1vw;
+    font-size: 25px;
+   
+}
+
+.detailActivityGeneral{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    border: 1px solid #393831;
+    border-radius: 15px;
+}
+
+.detailActivityGeneral h3{
+    margin-left: 1vw;
+    font-size: larger;
+    text-decoration: underline;
+   
+}
+
+.activitiesMapSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4vh;
+    
+    
+}
+.name{
+    color: #FFF7CC;
+    text-decoration: none;
+}
+
+.detailActivityContainer{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    
+    margin-left: 1vw;
+}
+
+
+.detailActivityHeader{
+  font-style: cursiva;
+}
+
+.detailActivityInfo p{
+    text-align: end;
+    margin-right: 1vw;
+    font-size: large;
+}
+
+
+
+.detailsBackButtonDiv{
+    background-color: #FFF7CC;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    opacity: .9;
+    outline: none;
+    text-decoration: none;
+}
+
+.detailsBackButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF7CC;
+    font-size:large;
+    font-style: italic;
+    border-radius: 10px;
+    height: 30px;
+    width: 160px;;
+    color: #391B09;
+    cursor: pointer;
+    margin-left: 70vw;
+    outline: none;
+    text-decoration: none;
+}

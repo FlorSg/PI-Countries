@@ -1,0 +1,47 @@
+.pagination{
+    text-decoration: none;
+    padding: 40px;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.numbers{
+    text-decoration: none;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50px;
+    padding: 10px;
+    list-style: none;
+    justify-content: center;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-weight: 600;
+}
+
+.numbers:hover{
+    border: block;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(57, 68, 99);
+    color: white;
+}
+
+.number{
+    display: block;
+    width: 15px;
+    height: 15px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.pageNumbers{
+    flex: auto;
+}
